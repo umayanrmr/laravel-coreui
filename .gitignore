@@ -12,6 +12,8 @@ npm-debug.log
 yarn-error.log
 
 
+/public/ng
+
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
