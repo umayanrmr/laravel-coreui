@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="shortcut icon" href="assets/favicon.ico">
-	<title>[DEV] {{env('APP_NAME')}} </title>
+	<link rel="shortcut icon" href="/ng/assets/favicon.ico">
+	<title>@if (strtoupper(config('app.env')) != 'PRODUCTION' ) DEV @endif {{config('app.name') }}</title>
  
 <link rel="stylesheet" href="/ng/styles.css"></head>
 <body class="app">
